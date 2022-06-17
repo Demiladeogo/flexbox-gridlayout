@@ -10,15 +10,15 @@ body {
 /* for desktop */
 @media screen and (max-width:1440px) {
   main{
-    width: 50%;
-    height: 50%;
-    display: flex;
+   
   }
 }
 /* for mobile */
 @media screen and (max-width:375px) {
   main{
-    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+      width: 70%;
   }
 
 }
